@@ -1,0 +1,122 @@
+---
+title: "building a collaborative data sharing portal for Alzheimer's disease research"
+author: "kara woo<br>senior bioinformatics engineer<br>sage bionetworks"
+date: 2020-09-04
+output:
+  xaringan::moon_reader:
+    css: [default-fonts, default, "style.css"]
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include = FALSE}
+## options(htmltools.dir.version = FALSE)
+library("knitr")
+opts_knit$set(global.par = TRUE)
+```
+
+# collaborating in search of new Alzheimer's therapies
+
+Traditional approaches haven't worked
+
+We collaborate to tackle problems too big for any one researcher
+
+---
+# what is sage bionetworks?
+
+A non-profit research institute working to make science more **open**, **collaborative**, and **inclusive**. 
+
+```{r sage, echo = FALSE}
+knitr::include_graphics("images/sage-logo.svg")
+```
+
+---
+
+# my team at sage
+
+Data Coordinating Center for communities researching neurodegenerative and neuropsychiatric diseases
+
+---
+
+# AMP-AD 
+### Accelerating Medicines Partnership - Alzheimer’s Disease
+
+- Identifying potential drug targets for Alzheimer’s disease
+- We curate and share data from AMP-AD and related groups
+
+---
+
+# my work at sage
+
+Helping researchers document and share their data
+
+--
+
+Developing standards for metadata to enable cross-project collaboration and sharing
+
+--
+
+Data cleaning and validation
+
+
+---
+class: center
+
+## curating a dataset used to take >40 emails
+
+![flopping dog with "ugghhh" caption](https://media1.giphy.com/media/nu6h2TlAh0gCY/giphy.gif?cid=3640f6095c7739e54c47333073ee74cd)
+
+---
+background-image: url(images/amp-results-details.png)
+class:urlslide
+
+# dccvalidator
+
+---
+background-image: url(images/amp-results.png)
+class:urlslide
+
+# dccvalidator
+
+---
+background-image: url(images/dccvalidator-summary.png)
+class:urlslide
+
+# dccvalidator
+
+---
+background-image: url(images/ampadportal.png)
+class:urlslide
+
+# https://adknowledgeportal.synapse.org/
+
+---
+background-image: url(images/portal-study-metadata.png)
+
+---
+
+# Agora
+
+- Re-analyzed many datasets from the AMP-AD Knowledge Portal to find genes associated with Alzheimer’s disease
+
+- Provides evidence and visualizations to help researchers pick targets to study further
+
+---
+background-image: url(images/agora-home.png)
+class:urlslide
+
+# https://agora.ampadportal.org
+
+---
+background-image: url(images/agora-network.png)
+
+---
+
+# conclusions
+
+- Tackling big scientific problems requires collaboration
+- Data curation is a big part of any analysis and crucial for making data useful
